@@ -42,4 +42,4 @@ Controller.on("message", async message => {
 
 });
 
-Controller.login(token);
+Controller.login(process.env.TOKEN);
