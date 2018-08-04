@@ -36,8 +36,8 @@ Controller.on("message", async message => {
         return message.channel.send('oh no no no, you misunderstood me, my dear. I said "flee is hella queer"');
     }
 
-    if(cmd === prefix + "Lewd!") {
-        return message.channel.send("https://discord.gg/Uqmcmg6 !");
+    if(cmd === prefix + "Lewd") {
+        return message.channel.send("https://discord.gg/Uqmcmg6 ! [Flee did this, send help] ");
     }
 
 });
