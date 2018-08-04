@@ -66,4 +66,4 @@ bot.on('message', function (user, userID, channelID, message, evt) {
      }
 });
 //needed for Github
-bot.login(ProcessingInstruction.env.BOT_TOKEN);
+bot.login("NDYwMDI4NTUwNTE1NTIzNTg0.DkdCjQ.ES51emlV-q_qRkKtxI4HHiGGIFE");
