@@ -1,14 +1,16 @@
 {
-  "name": "ControllerBot",
+  "name": "controllerbot",
   "version": "1.0.0",
-  "description": "Small bot (partially made with premade scripts) used to help chat with inside jokes",
+  "description": "A Bot that is used to help chat with fun inside jokes.",
   "main": "bot.js",
-  "scripts": {
-    "start": "node bot.js"
-    },
-  "author": "xDaann#7988",
+  "author": "xDaann#7988 + iamflee_#5576",
   "dependencies": {
-    "discord.io": "github:woor/discord.io#gateway_v6",
-    "winston": "^3.0.0"
-  }
+    "discord.js": "^11.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
