@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const Controller = new Discord.Client({disableEveryone: true});
-const token = "token";
+const token = "placeholderfortoken";
 const prefix = "!";
 
 Controller.on("ready", async() => {
