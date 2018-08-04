@@ -1,0 +1,14 @@
+{
+  "name": "ControllerBot",
+  "version": "1.0.0",
+  "description": "Small bot (partially made with premade scripts) used to help chat with inside jokes",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+    },
+  "author": "xDaann#7988",
+  "dependencies": {
+    "discord.io": "github:woor/discord.io#gateway_v6",
+    "winston": "^3.0.0"
+  }
+}
