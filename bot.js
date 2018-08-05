@@ -5,7 +5,7 @@ const prefix = "!";
 
 Controller.on("ready", async() => {
     console.log("ControllerBot has succesfully started.");
-    Controller.user.setActivity("listening to your commands", {type: "LISTENING"});
+    Controller.user.setActivity("your commands", {type: "LISTENING"});
 });
 
 Controller.on("message", async message => {
