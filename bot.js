@@ -21,7 +21,7 @@ Controller.on("message", async message => {
     }
 
     if(cmd === prefix + "flee") {
-        return message.channel.send("Fokz!");
+        return message.channel.send("Daan!");
     }
 
     if(cmd === prefix + "aftercharge") {
