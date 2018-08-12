@@ -40,6 +40,9 @@ Controller.on("message", async message => {
         return message.channel.send("https://discord.gg/Uqmcmg6 ! [Flee did this, send help] ");
     }
 
+    if(cmd === prefix + "dab") {
+        return message.channel.send("https://www.jokejive.com/images/jokejive/ca/ca275702061f25a2ae56ed695b894ec3.jpeg");
+    }
 });
 
 Controller.login(process.env.TOKEN);
