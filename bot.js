@@ -44,6 +44,11 @@ Controller.on("message", async message => {
         return message.channel.send({
     file: "https://www.jokejive.com/images/jokejive/ca/ca275702061f25a2ae56ed695b894ec3.jpeg"});                               
     }
+    
+    if(cmd === prefix + "stop") {
+        return message.channel.send({
+    file: "https://cdn.discordapp.com/attachments/382912697022545930/478928841633562644/unknown.png"});                               
+    }
     });
 
 Controller.login(process.env.TOKEN);
