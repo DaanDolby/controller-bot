@@ -54,6 +54,11 @@ Controller.on("message", async message => {
         return message.channel.send({
     file: "https://cdn.discordapp.com/attachments/466341067277729803/513093742417412097/image0.jpg"});                               
     }
+    
+    if(cmd === prefix + "poker") {
+        return message.channel.send({
+    file: ":poker:"});                               
+    }
     });
 
 Controller.login(process.env.TOKEN);
