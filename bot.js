@@ -50,7 +50,7 @@ Controller.on("message", async message => {
     file: "https://cdn.discordapp.com/attachments/382912697022545930/478928841633562644/unknown.png"});                               
     }
     
-    if(cmd === prefix + "no") {
+    if(cmd === prefix + "nou") {
         return message.channel.send({
     file: "https://cdn.discordapp.com/attachments/466341067277729803/513093742417412097/image0.jpg"});                               
     }
