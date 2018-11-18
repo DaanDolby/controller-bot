@@ -56,7 +56,7 @@ Controller.on("message", async message => {
     }
     
     if(cmd === prefix + "poker") {
-        return message.channel.send({":poker:"});                               
+        return message.channel.send(":poker:");                               
     }
     });
 
